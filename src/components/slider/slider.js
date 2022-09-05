@@ -1,5 +1,6 @@
 import React from "react";
 import './slider.css'
+import Slides from './slides.js'
 import home2 from '../../images/home2.png'
 
 const Slider=()=>{
@@ -12,63 +13,16 @@ const Slider=()=>{
                             <input type="radio" name="radio-btn" id="radio2"></input>
                             <input type="radio" name="radio-btn" id="radio3"></input>
                             <div className="card first">  
-                            <section id="banner">
-                                <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6" >
-                                    <p class="title">
-                                        <strong >Mentorshala</strong>
-                                        <p class="text-center">A new way to learn</p> 
-                                        <div class="tagline"></div>
-                                    </p>
-                                    </div>
-                                    <div class="col-md-6 text-center">
-                                    <img src={home2} class="image-mentor"></img>
-                                    </div>
-                                </div>
-                                </div>
-                            </section>
+                            <Slides/>
                             </div>
                             <div className="card">
-                            <section id="banner">
-                                <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6" >
-                                    <p class="title">
-                                        <strong >Mentorshala</strong>
-                                        <p class="text-center">A new way to learn</p> 
-                                        <div class="tagline"></div>
-                                    </p>
-                                    </div>
-                                    <div class="col-md-6 text-center">
-                                    <img src={home2} class="image-mentor"></img>
-                                    </div>
-                                </div>
-                                </div>
-                            </section>
+                            <Slides/>
                             </div>
                             <div className="card">
-                                <section id="banner">
-                                    <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6" >
-                                        <p class="title">
-                                            <strong >Mentorshala</strong>
-                                            <p class="text-center">A new way to learn</p> 
-                                            <div class="tagline"></div>
-                                        </p>
-                                        </div>
-                                        <div class="col-md-6 text-center">
-                                        <img src={home2} class="image-mentor"></img>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </section>
+                            <Slides/>
                             </div>
-                            
                         </div>
                     </div>
-
             </div>
             {/* <div className="navigation-auto">
                                 <div className="auto-btn1"></div>
