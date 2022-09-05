@@ -1,3 +1,9 @@
+After cloning or downloading the repository in your local system
+
+Open the terminal and run: 
+### 'npm install'
+It will install all required package: node_module and pakage.json file
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
