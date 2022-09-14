@@ -36,7 +36,9 @@
     height: 40rem;
     display: flex;
 
+    
 }
+
 .slides input{
     display: none;
 }
@@ -46,7 +48,7 @@
     margin-top:-40px;
     display: flex;
     justify-content: center;
-
+    display: none;
 }
 
 .manual-btn{
@@ -156,13 +158,29 @@
     margin-right: 100px;
 }
 #banner{
-    background: #2f2fa2;
+    background: #b9d4f2;
+    /* background: linear-gradient(#aecaea,#0f2a49); */
     color:white;
     padding-top: 2%;
     height: 500px;
 }
+@media screen and (max-width: 580px) {
+    #banner{
+        display: none
+    }
+    .navigation-manual{
+        display: none;
+    }
+}
+
 .col-md-6 .image-mentor{
     height: auto;
     width: 90%;
     float: right;
+}
+@media screen and (max-width: 990px) {
+    .image-mentor{
+        display: none;
+    }
+    
 }
