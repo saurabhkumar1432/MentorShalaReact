@@ -1,48 +1,53 @@
 
 .mainBar-bar{
-    background-color: #231e1e;
-    /* color: aliceblue; */
+    background-color: #2f2fa2;
+    /* color: #f64c72; */
     /* font-size: 30px; */
 }
 .mainBar-bar a{
     text-decoration: none;
-    color: aliceblue;
+    color: #f64c72;
 }
 .menu-bar{
-    background-color: #231e1e;
-    height: 70px;
+    background-color: #2f2fa2;
+    height: 75px;
     display: flex;
-    color: aliceblue;
+    color: #f64c72;
     justify-content: space-between;
 }
 .flex-item{
     /* border-bottom: #a2a0a0 3.5px solid; */
     
     /* border: 1px solid red; */
-    width: 400px;
+    width: 380px;
     /* height: 50px; */
-    color: aliceblue;
+    color: #f64c72;
     /* margin: 0px 180px; */
-    margin: 0px 7px; 
+    margin: 0px 5px; 
     padding: 0px;
     text-align: center;
 }
+.flex-item:hover{
+    border-bottom: 4px #f64c72 solid;
+}
 .flex-item-button{
     width: 100%;
+    height: 100%;
     background-color: transparent;
     border-style: none;
-    font-size: 20px;
-    color: #a2a0a0;
+    font-size: 25px;
+    color: #7777eb;
     /* height: 100%; */
     /* margin-bottom: 12px; */
+    /* border: 1px solid red; */
 }
 .flex-item-button:hover{
-    color: white;
-    transform: scale(1.35);
+    color: #f64c72;
+    transform: scale(1.15);
 }
 .nav-title{
     margin: 0px 20px;
-    color: rgb(255, 247, 247);
+    color: #f64c72;
     /* font-size: 35px; */
     /* transition: 0.3s; */
 }
