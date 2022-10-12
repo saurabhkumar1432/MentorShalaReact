@@ -1,12 +1,13 @@
 import React from 'react';
 import NavBar from '../../components/components-navBar/navBar';
 import './home.css'
-import Slider from '../../components/slider/slider-src/slider.js'
+import MainBar from '../../components/component-mainBar/mainBar';
+// import Slider from '../../components/slider/slider-src/slider.js'
 function App() {
   return (
     <div className='navBar'>
-      <NavBar/>
-      <Slider/>
+      {/* <NavBar></NavBar> */}
+      <MainBar></MainBar>
     </div>
   );
 }
