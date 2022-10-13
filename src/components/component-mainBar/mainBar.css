@@ -10,7 +10,7 @@
 }
 .menu-bar{
     background-color: #ffffff;
-    height: 75px;
+    height: 60px;
     display: flex;
     color: #f64c72;
     justify-content: space-between;
@@ -31,6 +31,9 @@
 .active{
     border-bottom: 4px #f64c72 solid;
 }
+.active button h4{
+    color: #f64c72;
+}
 .active button{
     color: #f64c72;
 }
@@ -42,14 +45,24 @@
     height: 100%;
     background-color: transparent;
     border-style: none;
-    font-size: 25px;
-    color: #7777eb;
+    
+    /* font-size: 25px; */
+    /* color: #7777eb; */
     transition: 0.3s;
+    /* position: absolute; */
     /* height: 100%; */
     /* margin-bottom: 12px; */
     /* border: 1px solid red; */
 }
-.flex-item-button:hover{
+.flex-item-button h4{
+    /* border: 1px solid red;
+    background: linear-gradient(
+        to right, #f32170,#7777eb); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: #7777eb;
+}
+.flex-item-button h4:hover{
     color: #f64c72;
     transform: scale(1.15);
 }

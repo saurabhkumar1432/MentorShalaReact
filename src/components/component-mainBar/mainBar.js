@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './mainBar.css'
 import m4 from "../../images/m4.jpg"
 import {data} from './data.js'
-import Experiment from './experiment.js'
+import Experiment from './menu-render.js'
 import { BsFillGearFill,BsCardList,BsChatRightDotsFill,BsFillPatchQuestionFill } from "react-icons/bs";
 const MainBar=()=>{
     let [mode,Setmode]=useState(data[0])
@@ -33,10 +33,10 @@ const MainBar=()=>{
                 </a>
             </div>
             <div className='menu-bar d-flex align-items-end justify-content-center'>
-                <div className={"p-3 flex-item"+isactive[0]}><button className='flex-item-button' onClick={()=>hanler(0)}><BsCardList/></button></div>
-                <div className={"p-3 flex-item"+isactive[1]}><button className='flex-item-button' onClick={()=>hanler(1)}><BsChatRightDotsFill/></button></div>
-                <div className={"p-3 flex-item"+isactive[2]}><button className='flex-item-button' onClick={()=>hanler(2)}><BsFillPatchQuestionFill/></button></div>
-                <div className={"p-3 flex-item"+isactive[3]}><button className='flex-item-button' onClick={()=>hanler(3)}><BsFillGearFill/></button></div>
+                <div className={"p-3 flex-item"+isactive[0]}><button className='flex-item-button' onClick={()=>hanler(0)}><h4><BsCardList/></h4></button></div>
+                <div className={"p-3 flex-item"+isactive[1]}><button className='flex-item-button' onClick={()=>hanler(1)}><h4><BsChatRightDotsFill/></h4></button></div>
+                <div className={"p-3 flex-item"+isactive[2]}><button className='flex-item-button' onClick={()=>hanler(2)}><h4><BsFillPatchQuestionFill/></h4></button></div>
+                <div className={"p-3 flex-item"+isactive[3]}><button className='flex-item-button' onClick={()=>hanler(3)}><h4><BsFillGearFill/></h4></button></div>
             </div>
             <Experiment mode={mode}/>
         </React.Fragment>
