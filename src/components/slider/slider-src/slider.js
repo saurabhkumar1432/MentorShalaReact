@@ -1,5 +1,5 @@
 import React from "react";
-import './slider.css'
+import '../slider-css/slider.css'
 import Slides from './slides.js'
 
 import {SlidesInfo} from '../slider-data/slidesInfo.js'

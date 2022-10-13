@@ -1,6 +1,6 @@
 import React from "react";
-import './navBar.css'
-import m4 from "../../images/m4.jpg"
+import '../component-navBar-css/navBar.css'
+import m4 from "../../../images/m4.jpg"
 const NavBar=()=>{
     return(
         <nav class="navbar navbar-expand-lg">
