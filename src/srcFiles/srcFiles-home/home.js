@@ -1,16 +1,16 @@
 import React from 'react';
 // import NavBar from '../../components/components-navBar/component-navBar-src/navBar';
-// import './home.css'
-import Community from '../../components/component-community/component-community-src/comunity';
-// import MainBar from '../../components/component-mainBar/component-mainBar-src/mainBar';
+import './home.css'
+import MainPage from '../../components/component-main-page/component-main-page-src/MainPage';
+// import Community from '../../components/component-community/component-community-src/comunity';
 // import Slider from '../../components/slider/slider-src/slider.js'
 function App() {
   return (
-    <div className='navBar'>
+    <div >
       {/* <NavBar></NavBar> */}
       {/* <Slider/> */}
-      {/* <MainBar></MainBar> */}
-      <Community/>
+      {/* <Community/> */}
+      <MainPage/>
     </div>
   );
 }
