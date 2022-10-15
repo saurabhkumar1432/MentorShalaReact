@@ -14,7 +14,7 @@
     background: linear-gradient(
         to right, #e394f1,#8d8dfa);
 }
-.messagePart .row div{
+.messagePart-profile div{
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
@@ -34,4 +34,29 @@
     margin: 5px;
     border-radius: 50%;
     width: 100%;
+}
+.modeChanger{
+    /* border: 1px solid green; */
+    height: 6%;
+    display: flex;
+    /* padding: 4px 8px; */
+    /* justify-content: center; */
+}
+.modeChanger .d-flex .p-2{
+    display: flex;
+    align-items: center;
+    /* border:1px solid red; */
+}
+.modeChanger .d-flex .p-2 button{
+    display: flex;
+    border-style: none;
+    background: transparent;
+    /* border:1px solid red; */
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
+}
+.active{
+    color: #8d8dfa;
 }
