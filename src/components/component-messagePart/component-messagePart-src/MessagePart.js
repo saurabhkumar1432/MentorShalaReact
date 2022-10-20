@@ -49,14 +49,15 @@ const MessagePart=()=>{
 
                 </div> */}
             </div>
-            <div className='row modeChanger d-flex'>
+            <div className='row modeChanger'>
                 <div class="col-sm-2 d-flex">
                     <div class="p-2"><button id='messageBtn' className={isactive[0]? 'active': ''} onClick={()=>{handler(0)}}>Messages</button></div>
                     <div class="p-2"><button id='matchesBtn' className={isactive[1]? 'active': ''} onClick={()=>{handler(1)}}>Matches</button></div>
                 </div>
             </div>
-            <div>
-                <X mode={mode}/>
+            <div className='row chatMessageSection'>
+                    <X mode={mode}/>
+                    {/* vghchchgvhcchfcgfccgfcfccgfccfgffffffffffffffffffffffff */}
             </div>
         </div>
 

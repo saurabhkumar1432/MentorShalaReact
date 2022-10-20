@@ -1,0 +1,37 @@
+/* .slideMode{
+    width: 50%;
+    height:30rem;
+    transition: 2s;
+    border-style: none;
+    text-decoration: none;
+}
+.modeContainer{
+    border: 1px solid red;
+} */
+div.scroll {
+    border: 2px solid blue;
+    width: 100%;
+    /* margin: 4px, 4px;
+    padding: 4px; */
+    /* background-color: #08c708; */
+    /* width: 300px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.modeCards{
+    display: inline-block;
+    margin-right: 10px;
+    width: 100%;
+    /* border: 2px solid red; */
+    transition: 0.5s;
+}
+.radioBtn{
+    display: none;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
