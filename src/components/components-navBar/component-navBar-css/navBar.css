@@ -1,6 +1,8 @@
 nav{
     background-color: #ffffff;
     font-family: 'Mukta', sans-serif;
+    /* border: 1px solid red; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .nav-title{
