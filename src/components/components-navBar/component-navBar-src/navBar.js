@@ -10,17 +10,20 @@ const NavBar=()=>{
         </button>
         <div class="collapse navbar-collapse nav-tabs" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item active nav-li">
               <a href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-li">
               <a href="#">Team</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-li">
               <a href="#">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-li">
               <a href="#">Contacts</a>
+            </li>
+            <li class="nav-item" id="list-loginBtn">
+              <button id="loginBtn">Log In</button>
             </li>
           </ul>
         </div>

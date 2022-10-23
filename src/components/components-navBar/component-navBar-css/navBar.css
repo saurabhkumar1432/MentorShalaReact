@@ -31,14 +31,16 @@ nav{
     border: #ffffff 1px solid;
 }
 .nav-tabs ul li{
-    margin: 0px 25px;
+    margin: 0px 1em;
+    display: flex;
+    align-items: center;
     text-align: center;
     justify-content: center;
     max-height: 43px;
     transition: 0.3s;
 }
 
-.nav-tabs ul li a{
+.nav-tabs ul .nav-li a{
     color: rgb(70, 70, 70);
     font-weight: 900;
     text-decoration: none;
@@ -46,7 +48,21 @@ nav{
     transition: 0.5s;
     border-radius: 8px;
 }
-.nav-tabs ul li:hover{
+.nav-tabs ul .nav-li:hover{
    transform: scale(1.75);
    font-family: 'Mukta', sans-serif;
+}
+#loginBtn{
+    padding: 0.5em 1.5em;
+    border-radius: 20%;
+    border-style: none;
+    transition: 0.3s;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(
+        to right, #e394f1,#8d8dfa);
+}
+#loginBtn:hover{
+    transform: scale(1.15);
 }
