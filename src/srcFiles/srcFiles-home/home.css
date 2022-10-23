@@ -1,4 +1,8 @@
 body{
     height: 100%;
-    /* border: 10px solid black; */
+    /* border: 5px solid rgb(19, 254, 164); */
+}
+#bodyConatiner{
+    /* border: 1px solid red; */
+    height: 100%;
 }
