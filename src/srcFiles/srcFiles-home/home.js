@@ -5,8 +5,8 @@ import MainPageContainer from '../srcFiles-MainPage/main-page';
 function App() {
   return (
     <div id='bodyConatiner'>
-      <HomePage/>
-      {/* <MainPageContainer/> */}
+      {/* <HomePage/> */}
+      <MainPageContainer/>
     </div>
   );
 }
