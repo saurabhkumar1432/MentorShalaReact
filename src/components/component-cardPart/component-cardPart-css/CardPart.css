@@ -1,17 +1,32 @@
 .cardPart{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* background-color: #ffffff; */
     background: linear-gradient(
         to right, #e394f1,#8d8dfa);
     width: 65%;
+    /* height: ; */
     /* display: flex;
     align-items: center;
     justify-content: center; */
+}
+.bgGreen{
+    background: rgb(106, 201, 106);
+}
+.bgRed{
+    background: rgb(239, 120, 120);
 }
 .cards{
     /* border: 1px solid black; */
     height: 90%;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swipe{
+    /* border: 1px solid red; */
+    height: 90%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,3 +77,7 @@
 .SwipeleftEffect{
     transform:translateX(-50%);
 }
+
+/* .cardContainer{
+    border: 1px solid blue;
+} */
