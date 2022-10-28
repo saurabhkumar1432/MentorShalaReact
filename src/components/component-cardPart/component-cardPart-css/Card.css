@@ -16,39 +16,55 @@
     transition: 0.5s;
     box-shadow: 0 10px 10px rgb(0 0 0 / 0.5);
     /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background: #2f2d2d;
+    color: aliceblue;
 }
 
 /* .card:hover{
     transform: scale(1.005);
 } */
-.card img{
-    height: 100%;
-    filter: brightness(70%);
+.card-img-banner{
+    height: 30%;
+    width: 100%;
 }
-#card-body{
+.card a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+.card-img-profilpic{
+    width: 40%;
+    border-radius: 50%;
     position: absolute;
-    bottom: 15%;
+    top: 18%;
+    left: 30%;
+    border: 8px solid white;
+}
+
+#name-div{
+    /* border: 1px solid red; */
+    /* position: absolute;
+    bottom: 15%; */
     color: aliceblue;
+    margin-top: 22%;
+    font-weight: 600;
+    /* font-family: 'Mukta', sans-serif; */
+}
+#div-city{
+    /* border: 1px solid red; */
     font-family: 'Mukta', sans-serif;
 }
-#card-body:hover{
-    background: rgb(0, 0, 0,0.2);
-}
-/* #nameDiv{
-    position: absolute;
-    bottom: 25%;
-    color: aliceblue;
+#div-college{
     font-family: 'Mukta', sans-serif;
 }
-#nameDiv:hover{
-    background: rgb(0, 0, 0,0.2);
+#div-pecialization{
+    font-family: 'Mukta', sans-serif;
 }
-#description{
-    position: absolute;
-    bottom: 20%;
-    color: aliceblue;
-    font-family: 'Mukta', sans-serif;;
+#div-description{
+    margin: 5%;
+    font-family: 'Mukta', sans-serif;
 }
-#description:hover{
-    background: rgb(0, 0, 0,0.2);
-} */
