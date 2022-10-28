@@ -7,7 +7,8 @@ import itachi from '../../../images/wallpaperflare.com_wallpaper.jpg'
 import gow1 from '../../../images/gow1.jpg'
 import gow2 from '../../../images/gow2.jpg'
 
-const Carddata=[
+// shuffle(db)
+let Carddata=[
     {
         id:0,
         firstName:"Lawliet",
@@ -87,6 +88,6 @@ const Carddata=[
         description:"Akatsuki Member and best in Gengutsu."
     },
 ]
-    
+// shuffle(Carddata)
 
 export default Carddata

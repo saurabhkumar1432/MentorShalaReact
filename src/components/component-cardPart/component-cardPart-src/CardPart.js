@@ -11,30 +11,33 @@ import TinderCard from 'react-tinder-card'
 import UndoIcon from '@mui/icons-material/Undo';
 import { ReactDOM } from 'react';
 const db = Carddata
-function shuffle(array) {
-  let currentIndex = array.length,  randomIndex;
+// function shuffle(array) {
+//   let currentIndex = array.length,  randomIndex;
 
-  // While there remain elements to shuffle.
-  while (currentIndex != 0) {
+//   // While there remain elements to shuffle.
+//   while (currentIndex != 0) {
 
-    // Pick a remaining element.
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
+//     // Pick a remaining element.
+//     randomIndex = Math.floor(Math.random() * currentIndex);
+//     currentIndex--;
 
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
+//     // And swap it with the current element.
+//     [array[currentIndex], array[randomIndex]] = [
+//       array[randomIndex], array[currentIndex]];
+//   }
 
-  return array;
-}
-shuffle(db)
+//   return array;
+// }
+// shuffle(db)
+// let indexCurrently=db.length-1;
+console.log(db);
 const CardPart=()=>{
+  // console.log(indexCurrently);
     const [currentIndex, setCurrentIndex] = useState(db.length - 1)
   const [lastDirection, setLastDirection] = useState()
   // used for outOfFrame closure
   const currentIndexRef = useRef(currentIndex)
-
+  // console.log(db[currentIndex]);
   const childRefs = useMemo(
     () =>
       Array(db.length)
@@ -85,6 +88,8 @@ const CardPart=()=>{
     else{
         document.getElementsByClassName('cardPart')[0].classList.add('bgRed')
     }
+    console.log(db[currentIndexRef.current+1]);
+    // indexCurrently--;
   }
 
   // increase current index and show card
@@ -115,7 +120,7 @@ const CardPart=()=>{
                   onSwipe={(dir) => swiped(dir, character.name, index)}
                   onCardLeftScreen={() => outOfFrame(character.name, index)}
               >
-                <Card id={character.id}/>
+              <Card id={character.id}/>
               </TinderCard>
             )
         })}
