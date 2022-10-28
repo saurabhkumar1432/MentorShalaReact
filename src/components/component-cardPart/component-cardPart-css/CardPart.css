@@ -11,6 +11,7 @@
     overflow-y: hidden;
 }
 .card-container{
+    overflow-y: hidden;
     height: 90%;
     /* border: 1px solid black; */
     display: flex;
@@ -35,6 +36,7 @@
     justify-content: center;
 } */
 .swipe{
+    overflow-y: hidden;
     position: absolute;
     /* border: 1px solid red; */
     height: 90%;
