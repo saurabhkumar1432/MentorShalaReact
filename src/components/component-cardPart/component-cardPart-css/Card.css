@@ -15,7 +15,7 @@
     height: 95%;
     transition: 0.5s;
     box-shadow: 0 10px 10px rgb(0 0 0 / 0.5);
-
+    /* position: relative; */
 }
 
 /* .card:hover{
