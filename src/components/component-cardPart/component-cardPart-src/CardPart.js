@@ -11,6 +11,24 @@ import TinderCard from 'react-tinder-card'
 import UndoIcon from '@mui/icons-material/Undo';
 import { ReactDOM } from 'react';
 const db = Carddata
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+shuffle(db)
 const CardPart=()=>{
     const [currentIndex, setCurrentIndex] = useState(db.length - 1)
   const [lastDirection, setLastDirection] = useState()
