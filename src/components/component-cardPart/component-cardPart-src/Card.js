@@ -8,8 +8,8 @@ const Card=(props)=>{
     const {id,firstName,lastName,profilePic,banner,from,country,college,specialization,description}=props.character
     return(
         <div class="card">
-            <img class="card-img-banner" src={banner} alt="Card image cap"></img>
-           <a href='#'><img className='card-img-profilpic' src={profilePic} alt="profilPic"></img></a>
+            <img id="card-img-banner" src={banner} alt="Card image cap"></img>
+           <img id='card-img-profilpic' src={profilePic} alt="profilPic"></img>
            <div id='name-div'>
                 <h1>{firstName} {lastName}</h1>
             </div>
@@ -19,7 +19,7 @@ const Card=(props)=>{
             <div id='div-college'>
                 <h4><SchoolIcon/> {college}</h4>
             </div>
-            <div id='div-pecialization'>
+            <div id='div-specialization'>
                 <h4><LibraryBooksIcon/> {specialization}</h4>
             </div>
             <div id='div-description'>

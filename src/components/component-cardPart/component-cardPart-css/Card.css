@@ -14,7 +14,7 @@
     width: 40%;
     height: 95%;
     transition: 0.5s;
-    box-shadow: 0 10px 10px rgb(0 0 0 / 0.5);
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.15);
     /* position: relative; */
     display: flex;
     align-items: center;
@@ -26,17 +26,17 @@
 /* .card:hover{
     transform: scale(1.005);
 } */
-.card-img-banner{
+#card-img-banner{
     height: 30%;
     width: 100%;
 }
-.card a{
+/* .card a{
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid red;
-}
-.card-img-profilpic{
+} */
+#card-img-profilpic{
     width: 40%;
     border-radius: 50%;
     position: absolute;
@@ -61,7 +61,7 @@
 #div-college{
     font-family: 'Mukta', sans-serif;
 }
-#div-pecialization{
+#div-specialization{
     font-family: 'Mukta', sans-serif;
 }
 #div-description{
