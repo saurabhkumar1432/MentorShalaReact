@@ -1,18 +1,31 @@
 import '../component-cardPart-css/Card.css'
+import SchoolIcon from '@mui/icons-material/School';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import Carddata from '../component-cardPart-data/card-data'
 const Card=(props)=>{
-    // console.log(props.id);
+    // console.log(props);
+    const {id,firstName,lastName,profilePic,banner,from,country,college,specialization,description}=props.character
     return(
         <div class="card">
-            <img class="card-img-top" src={Carddata[props.id].profilePic} alt="Card image cap"></img>
-            <div id='card-body'>
-                <div id='nameDiv'>
-                    <h1>{Carddata[props.id].firstName} {Carddata[props.id].lastName}</h1>
-                </div>
-                <div id="description">
-                    <h4>{Carddata[props.id].description}</h4>
-                </div>
+            <img id="card-img-banner" src={banner} alt="Card image cap"></img>
+           <img id='card-img-profilpic' src={profilePic} alt="profilPic"></img>
+           <div id='name-div'>
+                <h1>{firstName} {lastName}</h1>
             </div>
+            <div id='div-city'>
+                <h4><LocationOnIcon/> {from} , {country}</h4>
+            </div>
+            <div id='div-college'>
+                <h4><SchoolIcon/> {college}</h4>
+            </div>
+            <div id='div-specialization'>
+                <h4><LibraryBooksIcon/> {specialization}</h4>
+            </div>
+            <div id='div-description'>
+                <h5>{description}</h5>
+            </div>
+
         </div>
     )
 }
