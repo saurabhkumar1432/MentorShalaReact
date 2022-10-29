@@ -6,7 +6,23 @@ import ayanokoji from '../../../images/wp3666334-ayanokoji-wallpapers.jpg'
 import itachi from '../../../images/wallpaperflare.com_wallpaper.jpg'
 import gow1 from '../../../images/gow1.jpg'
 import gow2 from '../../../images/gow2.jpg'
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
 
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
 // shuffle(db)
 let Carddata=[
     {
@@ -15,7 +31,6 @@ let Carddata=[
         lastName:"laruso",
         profilePic: Lawliet,
         banner:gow1,
-        active:true,
         from: "Delhi",
         country:"India",
         college:"IIIT Delhi",
@@ -28,7 +43,6 @@ let Carddata=[
         lastName:"hatake",
         profilePic: kakashi,
         banner:gow2,
-        active:false,
         from: "Mumbai",
         country:"India",
         college:"IIT Bombay",
@@ -41,7 +55,6 @@ let Carddata=[
         lastName:"Hikigya",
         profilePic: hachiman,
         banner:gow1,
-        active:false,
         from: "Chandighar",
         country:"India",
         college:"Lovely University",
@@ -54,7 +67,6 @@ let Carddata=[
         lastName:"san",
         profilePic: oregi,
         banner:gow2,
-        active:false,
         from: "Sri City",
         country:"India",
         college:"IIIT Sri City",
@@ -67,7 +79,6 @@ let Carddata=[
         lastName:"Ayanokoji",
         profilePic: ayanokoji,
         banner:gow1,
-        active:false,
         from: "Chennai",
         country:"India",
         college:"Kalra University",
@@ -80,7 +91,6 @@ let Carddata=[
         lastName:"Uchiha",
         profilePic: itachi,
         banner:gow2,
-        active:false,
         from: "Jaipur",
         country:"India",
         college:"Babusa University",
@@ -88,6 +98,7 @@ let Carddata=[
         description:"Akatsuki Member and best in Gengutsu."
     },
 ]
-// shuffle(Carddata)
+
+shuffle(Carddata)
 
 export default Carddata
