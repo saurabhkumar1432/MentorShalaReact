@@ -1,9 +1,37 @@
 import '../component-chat-css/chat.css'
-const ChatSec=()=>{
+import Contact from '../../component-contact/Contact'
+const ChatSec=({})=>{
+    const contactList=[{
+        Name:"Siddharth Bhardwaj",
+        Messages:[
+            {
+                "content":"message1",
+                "sender":true,
+            }
+        ]
+    },
+    {
+        Name:"Abhishek Singh",
+        Messages:[
+            {
+                "content":"message1",
+                "sender":true,
+            }
+        ]
+    }
+]
+
+    
     return(
-        <div id="charSecContainer">
-            Messages
-        </div>
+        contactList.map(
+            contact => {
+                // console.log(contact.Name);
+                return <Contact contact={contact}/>
+            }
+        )
+        
+
+        
     )
 }
 export default ChatSec
