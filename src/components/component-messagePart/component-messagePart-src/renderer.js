@@ -17,7 +17,7 @@ const X=(props)=>{
         <div class="scroll">
             <input type="radio" className="radioBtn" name="radio-btn" id="radio1" checked={checkedArray[0]}></input>
             <input type="radio" className="radioBtn" name="radio-btn" id="radio2" checked={checkedArray[1]}></input>
-            <div className="modeCards first">
+            <div className="modeCards first chatSec">
                 <ChatSec/>
             </div>
             <div className="modeCards">

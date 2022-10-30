@@ -35,7 +35,58 @@ let Carddata=[
         country:"India",
         college:"IIIT Delhi",
         specialization:"Web Dev",
-        description:"Best Detective in world. Also Known as L in death Note.Back Problems"
+        description:"Best Detective in world. Also Known as L in death Note.Back Problems",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
     },
     {
         id:1,
@@ -47,7 +98,58 @@ let Carddata=[
         country:"India",
         college:"IIT Bombay",
         specialization:"Compeitive Programming",
-        description:"6th Hokage and sensei of 7th hockage."
+        description:"6th Hokage and sensei of 7th hockage.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
     },
     {
         id:2,
@@ -59,7 +161,59 @@ let Carddata=[
         country:"India",
         college:"Lovely University",
         specialization:"Arts",
-        description:"High schooler with good observation."
+        description:"High schooler with good observation.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+        
     },
     {
         id:3,
@@ -71,7 +225,58 @@ let Carddata=[
         country:"India",
         college:"IIIT Sri City",
         specialization:"App Dev",
-        description:"High schooler, good in theories."
+        description:"High schooler, good in theories.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
     },
     {
         id:4,
@@ -83,7 +288,58 @@ let Carddata=[
         country:"India",
         college:"Kalra University",
         specialization:"Web Dev",
-        description:"Topper of White Room."
+        description:"Topper of White Room.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
     },
     {
         id:5,
@@ -95,8 +351,563 @@ let Carddata=[
         country:"India",
         college:"Babusa University",
         specialization:"English",
-        description:"Akatsuki Member and best in Gengutsu."
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
     },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    },
+    {
+        id:5,
+        firstName:"Itachi",
+        lastName:"Uchiha",
+        profilePic: itachi,
+        banner:gow2,
+        from: "Jaipur",
+        country:"India",
+        college:"Babusa University",
+        specialization:"English",
+        description:"Akatsuki Member and best in Gengutsu.",
+        message:[
+            {
+                content:"hi, how r u?",
+                sender:true
+            },
+            {
+                content:"i'm fine, i'm always fine",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            },
+            {
+                content:"how bout u?",
+                sender:false
+            }
+
+        ]
+    }
 ]
 
 shuffle(Carddata)

@@ -2,7 +2,36 @@
     width:100%;
     height: 8vh;
     /* box-shadow: 5px 5px 10px grey; */
-    border: 2px solid black;
-    background:#eee;
-    overflow: hidden;
+    background:#fefefe;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    border-style: none;
 }
+#contactContainer:hover{
+    transform:scale(1.001);
+}
+
+#contactImage{
+    border-radius: 50%;
+    border: 2px solid black;
+    width:50px;
+    height:50px;
+    margin-left: 1vw;
+}
+#contactName{
+    margin-left: 1vw;
+    font-weight: 800;
+}
+#contactLastmessage{
+    margin-left:1.1vw;
+}
+/* #timestamp{
+    flex-direction: column;
+    align-self: start;
+    position: relative;
+    right:10px;
+    justify-self: end;
+    margin-top: 1vh;
+    justify-content: right;
+} */
