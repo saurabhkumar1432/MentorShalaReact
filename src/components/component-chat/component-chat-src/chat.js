@@ -1,13 +1,14 @@
 import '../component-chat-css/chat.css'
 import Contact from '../../component-contact/Contact'
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
+
 // import hachiman from '../../../images/hachiman.png'
-import Carddata from '../../component-cardPart/component-cardPart-data/card-data.js'
+import chatData from '../component-chat-data/chatData.js'
 import { useState } from 'react'
 import { Contrast } from '@mui/icons-material'
 import MessageBox from '../../component-contact/messageBox'
 const ChatSec=({})=>{
-    const contactList=Carddata
+    const contactList=chatData
     let [msgBox,SetMsgBox]=useState(0)
     let [msgObj,SetmsgObj]=useState(contactList[0])
     const handler=(props)=>{
