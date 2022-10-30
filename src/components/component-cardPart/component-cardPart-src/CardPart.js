@@ -46,14 +46,14 @@ const CardPart=()=>{
     setLastDirection(direction)
     updateCurrentIndex(index - 1)
     // console.log(db[currentIndex]);
-    if(direction=='right'){
+    if(direction==='right'){
       document.getElementsByClassName('cardPart')[0].classList.add('bgGreen')
     }
     else{
         document.getElementsByClassName('cardPart')[0].classList.add('bgRed')
     }
     console.log(db[currentIndexRef.current+1]);
-    if( direction=='right'){
+    if( direction==='right'){
       likedPeople.push(db[currentIndexRef.current+1])
     }
     else{
@@ -78,7 +78,7 @@ const CardPart=()=>{
     if (canSwipe && currentIndex < db.length) {
        childRefs[currentIndex].current.swipe(dir) // Swipe the card!
     }
-    if(dir=='right'){
+    if(dir==='right'){
       document.getElementsByClassName('cardPart')[0].classList.add('bgGreen')
     }
     else{

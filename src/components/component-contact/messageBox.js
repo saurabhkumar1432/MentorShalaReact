@@ -5,7 +5,7 @@ export default function MessageBox(props) {
   return (
     props.msgObj.message.map(
       msg => {
-          if(msg.sender==true){
+          if(msg.sender===true){
               return <div id="sentMessage">{msg.content}</div>
           }
           else{

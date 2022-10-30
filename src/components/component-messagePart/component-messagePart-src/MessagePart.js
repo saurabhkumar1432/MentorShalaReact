@@ -30,7 +30,7 @@ const MessagePart=()=>{
         //         mode.active=false;
         //     }
         // })
-        if(id==1){
+        if(id===1){
             Setisactive([false,true])
         }
         else{

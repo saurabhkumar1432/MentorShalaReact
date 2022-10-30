@@ -7,8 +7,8 @@ function App() {
   return (
     <div id='bodyConatiner'>
       {/* <HomePage/> */}
-      {/* <MainPageContainer/> */}
-      <Community/>
+      <MainPageContainer/>
+      {/* <Community/> */}
     </div>
   );
 }

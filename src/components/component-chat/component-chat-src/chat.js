@@ -12,14 +12,14 @@ const ChatSec=({})=>{
     let [msgBox,SetMsgBox]=useState(0)
     let [msgObj,SetmsgObj]=useState(contactList[0])
     const handler=(props)=>{
-        if(msgBox==0){
+        if(msgBox===0){
             SetmsgObj(props)
             SetMsgBox(1)
         }
         else
             SetMsgBox(0)
     }
-    if(msgBox==0){
+    if(msgBox===0){
 
         return(
             

@@ -5,7 +5,7 @@ import ChatSec from "../../component-chat/component-chat-src/chat";
 import Matches from "../../component-matches/component-matches-src/matches";
 const X=(props)=>{
     let checkedArray=[true,false];
-    if(props.mode.id==0){
+    if(props.mode.id===0){
         checkedArray[0]=true;
         checkedArray[1]=false;
     }
