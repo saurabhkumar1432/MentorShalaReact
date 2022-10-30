@@ -72,7 +72,7 @@ input{
     position:fixed;
     height:67vh;
     margin-top: 7vh;
-    
+
     overflow-x: hidden;
     overflow-y:scroll;
     scrollbar-width: none;
@@ -81,5 +81,5 @@ input{
 #newMsgSubmit{
     float:right;
     margin-right: 10vw;
-        
+
 }
